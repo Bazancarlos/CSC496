@@ -176,7 +176,17 @@ BENEFITS of Coroutines
 		Pauses execution of current coroutine and saves local variables
 -	Resume
 		Automatically loads saved state and contunues executions from the point the code was suspended
--	
+Coroutine Scopes
+-	Lifecycle has LifeCycleModel
+-	ViewModel has ViewModelCycle
+
+-	Launch
+		No Result Needed
+-	Asynch
+		Can return a result
+
+Testing 
+
 
 
 
