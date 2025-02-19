@@ -148,6 +148,37 @@ o	Define database interactions in the DAO
 
 Kotlin Day 12
 
+Asynch programming*
+-	Download information
+-	Sync with a server
+-	Write to a file
+-	Heavy computation
+-	Read from, or write to, a database
+
+On andriod
+-	Threading
+-	Call Backs
+-	Plus many more
+
+Coroutines
+-	Keep app responsive
+-	simpkfy asynch code
+-	Write Code in a sequential way
+-	Handle exc. with try/catch
+
+BENEFITS of Coroutines
+-	Lightweight
+-	Fewer memory leaks
+-	Built in cancellation Support
+-	Jetpack intergration
+
+-	Suspend
+		Pauses execution of current coroutine and saves local variables
+-	Resume
+		Automatically loads saved state and contunues executions from the point the code was suspended
+-	
+
+
 
 
 
