@@ -1,0 +1,155 @@
+Kotlin Basics: Day 2
+
+Math operators: +- * / %
+Increment and dec.: ++ --
+Comparison: < <= > >=
+Assignment operator: =
+Equality: == !=
+
+
+Integer Types: 
+Long 64
+Int 32
+Short 16
+Byte 8
+
+Floating
+Double 64	16 sig figs
+Float 32	6 sig figs
+Char 16	16 Unicode char
+Boolean 8	true or false
+
+Type casting:
+Example:
+	Val I: = 6 
+	Print(i.toByte())
+
+
+
+***You can use underscores to make numeric constants more readable 
+
+
+
+Strings: similar to Java
+You can use :“”” 
+	Var bikes = 50
+“””
+
+To get a val in the string use “$whateverthenameis”
+You can also use an expression : “$whateverthenameis.length is ${whateverthenameis.length}”)
+Output ->  Whateverthename is 14
+
+
+
+Variables:
+Powerful Type inference
+You can declare if needed
+Immutability is recommended
+Mutable = var
+Immutable = val
+
+
+
+Ranges in if/else statements
+
+Val numberofstudents = 50
+If (numberofstudents in 1..100){
+	Println(numberofstudents)
+}
+
+->50
+
+
+Kotlin day 7
+
+
+Density-independent pixels: this is how android views are measured
+
+DP = (width in pixels * 160)/ screen density
+
+Individual vies can also have resource IDs 
+Add android:id attribute to view in XML USE @+id/name syntax
+
+
+CONSTRAINT LAYOUT
+
+Recommended default Layout for Andriod(when not using compost)
+
+
+DATA BINDING
+
+Used for simply view references from layout with data binding
+
+
+Kotlin day 8
+
+Accessibility: improving the functionality of the app to make it easier for everyone, including people with disabilities
+
+Small test against backround 4:51
+Large text against background 3:0:1
+
+Use accessibility scanner
+
+You can add content descriptions (reads aloud strings)
+
+Kotlin day 9
+
+Copy happy birthday theme and composable over to portfolio
+Copy and paste over ui testing (drag it over )
+Change the packet name so they align with the portfolio directory 
+Import the happy birthday theme 
+And then paste into portfiolio 
+Copy over the preview
+Hover over the tooling and add it 
+
+
+Kotlin day 10:
+Talking about leaving the app and keepint it the same state without having memory leaks or app crashes.
+
+
+Oncreate()- activity is created
+OnStart()- activity becomes visible to the user, after oncreate or onresstart()
+Onresume()-activity stays in resumed state until system triggers activity ot be paused.
+Onpause(0-counterpart to resume, saves what is happening
+Onstop()- activity is no longer visible to the user, releases resources that are not needed
+Ondetstroy()- do not rely on this to save user data, can be caused by finishing or configuration changes
+
+Logging-used for sending messages like debugging, info, warning, error, etc…
+-	This is to see what is going on in the app
+
+Fragment lifecycle-
+Onattch()- fragment is attached to a context
+onCreateView()-inflate the fragment layout here and return the root view 
+onViewCreated()-perform ant remaining initialization here for example resore state from bundle
+onDestroy()- is called when view hieracy of fragment is removed.
+
+
+Lifecycle tracks the state of an activity or fragment
+
+LifecycleOwner-interface that syas this class has a lifecycle
+
+
+
+Kotlin day 11
+-	Avoid short term attacks
+-	Jetpack arch components help you design robst, restable, and maintainable apps
+-	View model: prepares data for the UI
+-	View model- similar to what I would expect in java
+
+Color Classes
+
+-	Three different types, color, colordoa, ColorDatabase
+-	@Entity make entity class, @Doa for DAO, @Database for database
+-	Can take parameters
+o	@entity(tablename=Color)
+-	Data access object(DAO)
+o	Define database interactions in the DAO
+
+
+Kotlin Day 12
+
+
+
+
+
+
